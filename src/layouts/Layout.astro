@@ -1,0 +1,77 @@
+---
+export interface Props {
+    title: string;
+    metaDescription: string;
+    googleSiteVerification: string;
+    shareImage: string;
+    shareSiteUrl: string;
+    shareTitle: string;
+    shareDescription: string;
+    faviconPath: string;
+    gTagManagerToken: string;
+}
+
+const {
+    title,
+    metaDescription,
+    googleSiteVerification,
+    shareImage,
+    shareSiteUrl,
+    shareTitle,
+    shareDescription,
+    faviconPath,
+    gTagManagerToken,
+} = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+    <html lang="fr">
+        <head>
+            <meta charset="UTF-8" />
+            <meta
+                name="viewport"
+                content="width=device-width, initial-scale=1.0"
+            />
+            <meta name="description" content={metaDescription} />
+            <meta
+                name="google-site-verification"
+                content={googleSiteVerification}
+            />
+
+            <!-- Twitter meta tags -->
+            <meta name="twitter:image:src" content={shareImage} />
+            <meta name="twitter:site" content={shareSiteUrl} />
+            <meta name="twitter:card" content={shareDescription} />
+            <meta name="twitter:title" content={shareTitle} />
+            <meta name="twitter:description" content={shareDescription} />
+
+            <!-- OG meta tags -->
+            <meta property="og:image" content={shareImage} />
+            <meta property="og:image:alt" content={shareDescription} />
+            <meta property="og:site_name" content={shareSiteUrl} />
+            <meta property="og:type" content="Web Site" />
+            <meta property="og:title" content={shareTitle} />
+            <meta property="og:url" content={shareSiteUrl} />
+            <meta property="og:description" content={shareDescription} />
+
+            <link rel="icon" href={faviconPath} type="image/png" />
+            <link
+                href="https://emoji-css.afeld.me/emoji.css"
+                rel="stylesheet"
+            />
+            <link
+                rel="stylesheet"
+                href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css"
+            />
+            <script
+                src="https://kit.fontawesome.com/19b38554c7.js"
+                crossorigin="anonymous"></script>
+            <title>Mathieu Besson</title>
+        </head>
+        <body>
+            <slot />
+        </body>
+    </html>
+    <style is:global></style>
+</html>

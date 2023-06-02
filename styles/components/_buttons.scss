@@ -1,0 +1,37 @@
+@import '../base/_variables.scss';
+
+button {
+    cursor: pointer;
+    outline-style: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 25px;
+    font-size: 15px;
+    transition: all .3s ease;
+    margin-right: 25px;
+
+    &.btn-first {
+        background-color: transparent;
+        border: 2px solid $main-color;
+        color: $main-color;
+
+        &:hover {
+            background-color: $main-color;
+            color: #0E0A30;
+        }
+    }
+
+    &.btn-second {
+        background-color: $main-color;
+        border: 2px solid $main-color;
+        color: #0E0A30;
+
+        &:hover {
+            background-color: transparent;
+            color: $main-color;
+        }
+    }
+}

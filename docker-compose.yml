@@ -1,0 +1,12 @@
+version: '3'
+services:
+  astro-cv:
+    container_name: astro-cv
+    ports:
+      - 3100:3000
+    volumes:
+      - .:/app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    user: 1000:1000
