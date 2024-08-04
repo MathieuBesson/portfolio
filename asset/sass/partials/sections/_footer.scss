@@ -1,0 +1,25 @@
+footer{
+    @include currentBg($main-bg-color);
+    @include flex(space-between);
+    align-items: center;
+    .footer-contact-job{margin-bottom: 35px; text-align: left;}
+    p{margin: 15px 10px; a{color:white}}
+    i{
+        margin:10px; 
+        font-size: 30px !important; 
+        color:white; 
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+    }
+    li {
+        @extend %bounce-effect;
+    }
+    
+
+    // Media Queries
+    @media screen and (max-width: 672px){
+        .footer-social-devicon-group{text-align: left;}
+    }
+}

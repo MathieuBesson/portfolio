@@ -1,0 +1,65 @@
+h1,h2, button {
+    text-transform: uppercase;
+    font-family: "Segoe UI",'Montserrat', sans-serif;;
+    font-size: 1.5em;
+}
+
+h2,h3 {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+h2 {
+    font-size: 2.1em;
+    color: #cc9602;
+    // background: $main-gradient-title;
+    // -webkit-background-clip: text;
+    // -webkit-text-fill-color: transparent;
+    // background-size: 400% 400%;
+    // -webkit-animation: gradientBG 30s ease-in-out infinite;
+    // animation: gradientBG 30s ease-in-out infinite;
+}
+
+h3 {font-size: 1.8em;
+    color: white;
+    font-weight: 700;
+}
+
+button {
+    cursor: pointer;
+    outline-style : none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 25px;
+    font-size: 15px;
+    transition: all .3s ease;
+    margin-right: 25px;
+    &.btn-first{
+        background-color: transparent;
+        border: 2px solid $main-color;
+        color: $main-color;
+        &:hover{
+            background-color: $main-color;
+            color:#0E0A30;
+        }
+    }
+    &.btn-second{
+        background-color: $main-color;
+        border: 2px solid $main-color;
+        color: #0E0A30;
+        &:hover{
+            background-color: transparent;
+            color: $main-color;
+        }
+    }
+}
+
+
+// Media Queries
+@media screen and (max-width: 525px){
+    h2{font-size: 1.9em;}
+    h3{font-size: 1.6em;}
+}

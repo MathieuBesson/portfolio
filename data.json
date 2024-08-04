@@ -1,0 +1,94 @@
+{
+    "header": {
+        "banner" : {
+            "presentationList": [
+                "Bienvenue sur mon CV en ligne ! 👋",
+                "Depuis longtemps passionné par la <strong>programmation</strong>, la <strong>logique</strong> et le <strong>numérique</strong>, vous retrouverez ici mon <strong>parcours</strong> et mes <strong>projets</strong>.", 
+                "Si mon profil vous intéresse n&apos;hésitez pas à me <strong><a href=\"#contact\">contacter</a></strong> ! 📩"
+            ]
+        }
+    }, 
+    "skill": {
+        "typeList": [
+            {
+                "title": "Back-end",
+                "skillList": [
+                    {"children": "PHP", "iconClass" : "devicon-php-plain colored"},
+                    {"children": "Symfony", "iconClass" : "devicon-symfony-original"},
+                    {"children": "MYSQL", "iconClass" : "devicon-mysql-plain colored"},
+                    {"children": "PostgreSQL", "iconClass" : "devicon-postgresql-plain colored"}
+                ]
+            }, 
+            {
+                "title": "Front-end",
+                "skillList": [
+                    {"children": "PHP", "iconClass" : "devicon-php-plain colored"},
+                    {"children": "Symfony", "iconClass" : "devicon-symfony-original"},
+                    {"children": "MYSQL", "iconClass" : "devicon-mysql-plain colored"},
+                    {"children": "PostgreSQL", "iconClass" : "devicon-postgresql-plain colored"}
+                ]
+            }
+        ]
+    }, 
+    "project": {
+        "list" : [
+            {
+                "title": "Draft.",
+                "imageName": "img-10",
+                "links": [
+                    {
+                        "link": "https://draft-snowboard.netlify.app/",
+                        "iconClass": "icon-square-arrow-out-up-right"
+                    },
+                    {
+                        "link": "https://github.com/MathieuBesson/Draft",
+                        "iconClass": "devicon-github-original"
+                    }
+                ]
+            }
+        ]
+    }, 
+    "path": {
+        "list": [
+            {
+                "company": "Blue2i",
+                "link": "https://www.blue2i.com",
+                "job": "Développeur Web Symfony, Vue.js",
+                "contractType": "Stage",
+                "taskList": [
+                    "Création d'un <a href=\"www.google.com\">configurateur</a> de plaques de verre en temps réel sous Vue.js (intégré dans une solution e-commerce)",
+                    "Mise en place d'un module de génération d'étiquettes Colissimo dans la solution e-commerce de l'agence",
+                    "Création d'un robot faisant le lien entre un logiciel de gestion de congés et une solution de gestion de projet interne"
+                ],
+                "toolList": [
+                    {
+                        "iconClass": "devicon-php-plain colored",
+                        "children": "PHP"
+                    }
+                ],
+                "startDate": "Avril 2021",
+                "endDate": "Juillet 2021"
+            }
+        ]
+    }, 
+    "footer": {
+        "infoList": [
+            "Développeur Back-end",
+            "Rennes"
+        ],
+        "socialNetworkList": [
+            {
+                "link": "https://twitter.com/BessonMathieu3",
+                "iconClass": "icon-twitter"
+            },
+            {
+                "link": "https://www.linkedin.com/in/mathieubesson/",
+                "iconClass": "icon-linkedin"
+            },
+            {
+                "link": "https://github.com/MathieuBesson",
+                "iconClass": "icon-github"
+            }
+        ]
+    }
+}
