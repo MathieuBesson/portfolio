@@ -5,13 +5,14 @@
     .skills-group {@include flex(space-around);}
     .skills-group-type {
         @include flex(space-around);
-        flex: 0 1 30%;
+        flex: 0 1 40%;
     }
     .skills-group-type-title {flex: 1 1 100%;}
     .skills-group-type-block {
         @include flex(center, column);
         display: flex;
         text-align: center;
+        margin-bottom: 20px;
     }
     .skills-group-type-block {
         i {

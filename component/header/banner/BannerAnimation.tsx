@@ -7,5 +7,5 @@ const DotLottieAnimation = dynamic(() => import("@/component/common/DotLottieAni
 });
 
 export const BannerAnimation: React.FC = () => {
-  return <><DotLottieAnimation  /></>
+  return <div className="bagnere-block-animation"><DotLottieAnimation  /></div>
 }

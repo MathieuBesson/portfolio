@@ -15,7 +15,7 @@ export const BannerTypeTitle: React.FC = () => {
                     position: 'absolute',
                 }}
             >
-                Développeur Back-end, à votre service
+                Développeur Back-end de solutions évolutives
             </h2>
             <BannerTypeTitleClient />
         </div>

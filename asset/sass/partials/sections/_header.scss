@@ -61,8 +61,11 @@ header {
     .bagnere-block {
         text-align: start;
         width: 45%;
-        max-height: 450px;
+        // max-height: 500px;
         // flex: 0 0 45%;
+    }
+    .bagnere-block-animation{
+        height: 400px;
     }
     .bagnere-block-content {
         line-height: 1.8em;
@@ -81,9 +84,7 @@ header {
     .bagnere-block-text-typing-title {
         text-align: left;
         font-weight: 700;
-        i {
-            font-size: 25px;
-        }
+        height: 82px;
         .Typewriter__cursor {
             -webkit-text-fill-color: white;
         }
