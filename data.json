@@ -1,207 +1,289 @@
 {
-    "header": {
-        "banner" : {
-            "presentationList": [
-                "Après <strong>3 années d'expérience</strong> en alternance en tant que développeur Symfony, je suis à la recherche d'un nouveau poste pour mettre mes compétences au service d'une nouvelle entreprise ! 👋",
-                "À l'aise en <strong>équipe</strong> et sur la partie <strong>technique</strong>, je suis toujours en quête de nouvelles <strong>connaissances</strong> et <strong>savoir-faire</strong>.",
-                "Si mon profil vous intéresse n'hésitez pas à me <strong><a href=\"#contact\">contacter</a></strong> ! 📩"
-            ]
-        }
-    }, 
-    "skill": {
-        "typeList": [
-            {
-                "title": "Web (Back-end, Front-end)",
-                "skillList": [
-                    {"children": "PHP", "iconClass" : "devicon-php-plain colored"},
-                    {"children": "Symfony", "iconClass" : "devicon-symfony-original"},
-                    {"children": "Javascript / TypeScript", "iconClass" : "devicon-typescript-plain colored"},
-                    {"children": "Nest.js", "iconClass" : "devicon-nestjs-original colored"},
-                    {"children": "React.js / React Native", "iconClass" : "devicon-react-original colored"},
-                    {"children": "Tailwind", "iconClass" : "devicon-tailwindcss-original colored"},
-                    {"children": "SQL", "iconClass" : "devicon-azuresqldatabase-plain colored"},
-                    {"children": "PostgreSQL", "iconClass" : "devicon-postgresql-plain colored"},
-                    {"children": "MYSQL / Mariadb", "iconClass" : "devicon-mysql-original colored"}
-                ]
-            }, 
-            {
-                "title": "Administration Système",
-                "skillList": [
-                    {"children": "Linux", "iconClass" : "devicon-linux-plain"},
-                    {"children": "Docker", "iconClass" : "devicon-docker-plain colored"},
-                    {"children": "Bash", "iconClass" : "devicon-bash-plain"},
-                    {"children": "Vagrant", "iconClass" : "devicon-vagrant-plain colored"},
-                    {"children": "Apache", "iconClass" : "devicon-apache-plain colored"},
-                    {"children": "Git", "iconClass" : "devicon-git-plain colored"}
-                ]
-            }
-        ]
-    }, 
-    "project": {
-        "list" : [
-            {
-                "title": "Draft.",
-                "imageName": "img-10",
-                "links": [
-                    {
-                        "link": "https://draft-snowboard.netlify.app/",
-                        "iconClass": "icon-square-arrow-out-up-right"
-                    },
-                    {
-                        "link": "https://github.com/MathieuBesson/Draft",
-                        "iconClass": "devicon-github-original"
-                    }
-                ]
-            }
-        ]
-    }, 
-    "path": {
-        "list": [
-            {
-                "company": "Blue2i",
-                "link": "https://www.blue2i.com",
-                "job": "Développeur Back-end PHP / Symfony",
-                "contractType": "Stage puis Alternance",
-                "taskList": [
-                    "Développement et maintenance d'une solution de gestion hôtelier : roulement code de porte, back-office de gestion, module e-commerce Stripe, intégration flux de donnée externe, support technique...",
-                    "Mise en place d'un outil de wiki markdown (Mkdocs Material)",
-                    "TMA et refactorisation d'applications existantes",
-                    "Administration système : évolution et maintenance paquets Debian",
-                    "Normalisation des process : Gitflow, librairies PHP interne avec Composer et Satis, processus de documentation technique",
-                    "Développement d'un configurateur de plaques de verre réactif sous Vue.js",
-                    "R&D : recherche d'outils et de bonnes pratiques, POC..."
-                ],
-                "toolList": [
-                    {"children": "PHP", "iconClass" : "devicon-php-plain colored"},
-                    {"children": "Symfony", "iconClass" : "devicon-symfony-original"},
-                    {"children": "Composer", "iconClass" : "devicon-composer-line"},
-                    {"children": "Javascript", "iconClass" : "devicon-javascript-plain colored"},
-                    {"children": "Vue.js", "iconClass" : "devicon-vuejs-plain colored"},
-                    {"children": "SQL", "iconClass" : "devicon-azuresqldatabase-plain colored"},
-                    {"children": "PostgreSQL", "iconClass" : "devicon-postgresql-plain colored"},
-                    {"children": "Linux", "iconClass" : "devicon-linux-plain"},
-                    {"children": "Debian", "iconClass" : "devicon-debian-plain colored"},
-                    {"children": "Docker", "iconClass" : "devicon-docker-plain colored"},
-                    {"children": "Bash", "iconClass" : "devicon-bash-plain"},
-                    {"children": "Vagrant", "iconClass" : "devicon-vagrant-plain colored"},
-                    {"children": "Apache", "iconClass" : "devicon-apache-plain colored"},
-                    {"children": "Git", "iconClass" : "devicon-git-plain colored"}
-                ],
-                "startDate": "Avril 2021",
-                "endDate": "Août 2024"
-            },
-            {
-                "company": "MyDigitalSchool Rennes",
-                "link": "https://www.mydigitalschool.com/mba-architecte-web",
-                "job": "MBA Développeur Full-stack",
-                "contractType": "Formation Bac+5",
-                "taskList": [
-                    "Programme : Développement natif Flutter, Docker, Qualité logiciel et tests, API REST, Linux, Bash scripting, PWA, DevOps, Gestion de projet, Droit, Management, Relation client, Projet de groupe inter-filière, Mémoire... ",
-                    "Mémoire : \"Garantir la transmission des savoir-faire au sein d’une TPE\" (18,72/20)",
-                    "Résultat : Reçu, Titre RNCP34394 (Niveau 7) - 16.33/20"
-                ],
-                "toolList": [
-
-                ],
-                "startDate": "Septembre 2022",
-                "endDate": "Juin 2024"
-            },
-            {
-                "company": "La Voix du Vote",
-                "link": "https://lvdv.mathieu-besson.fr",
-                "job": "Co-fondateur & Développeur Back-end PHP / Symfony",
-                "contractType": "Bénévolat",
-                "taskList": [
-                    "Plateforme de synthétisation des programmes des candidats à l'élection présidentielle de 2022 (détail, comparateur, glossaire)"
-                ],
-                "toolList": [
-                    {"children": "PHP", "iconClass" : "devicon-php-plain colored"},
-                    {"children": "Symfony", "iconClass" : "devicon-symfony-original"},
-                    {"children": "Composer", "iconClass" : "devicon-composer-line"},
-                    {"children": "Javascript", "iconClass" : "devicon-javascript-plain colored"},
-                    {"children": "SQL", "iconClass" : "devicon-azuresqldatabase-plain colored"},
-                    {"children": "PostgreSQL", "iconClass" : "devicon-postgresql-plain colored"},
-                    {"children": "Linux", "iconClass" : "devicon-linux-plain"},
-                    {"children": "Docker", "iconClass" : "devicon-docker-plain colored"},
-                    {"children": "Apache", "iconClass" : "devicon-apache-plain colored"},
-                    {"children": "Git", "iconClass" : "devicon-git-plain colored"}
-                ],
-                "startDate": "Mai 2021",
-                "endDate": "Mai 2022"
-            },
-            {
-                "company": "Web and Cow",
-                "link": "https://www.webandcow.com/",
-                "job": "Développeur PHP CakePHP",
-                "contractType": "Stage",
-                "taskList": [
-                    "Intégration de la nouvelle charte graphique de “Code Challenge” devenu tainix.fr", 
-                    "Ajout de fonctionnalités : back-office admin, dashboard joueur..."
-                ],
-                "toolList": [
-                    {"children": "PHP", "iconClass" : "devicon-php-plain colored"},
-                    {"children": "CakePHP", "iconClass" : "devicon-cakephp-plain colored"},
-                    {"children": "Composer", "iconClass" : "devicon-composer-line"},
-                    {"children": "Javascript", "iconClass" : "devicon-javascript-plain colored"},
-                    {"children": "Sass", "iconClass" : "devicon-sass-original colored"},
-                    {"children": "Bootstrap", "iconClass" : "devicon-bootstrap-plain colored"},
-                    {"children": "MYSQL", "iconClass" : "devicon-postgresql-plain colored"},
-                    {"children": "Git", "iconClass" : "devicon-git-plain colored"}
-                ],
-                "startDate": "Avril 2020",
-                "endDate": "Juin 2020"
-            }, 
-            {
-                "company": "MyDigitalSchool Rennes",
-                "link": "https://www.mydigitalschool.com/bachelor-developpeur-digital-web",
-                "job": "Concepteur Développeur d'applications (CDA)",
-                "contractType": "Formation Bac+3",
-                "taskList": [
-                    "Bachelor en 3 ans : 2 années en initiale (avec 16 semaines de stage) et une année en alternance", 
-                    "Année 1 et 2 (Formation générale) : Développement front-end et back-end, base de donnée, webdesgin, marketing digital, gestion de projet, SEO, droit...",
-                    "Année 3 (Formation spécifique) : Conception et développement d'application web et mobile : Git, POO, Design Pattern, Back-end Java, PHP, node.js, Front-end (React.js, React Native), UML, SQL, Gestion de projet...",
-                    "Résultat : Reçu, Titre RNCP31678 (Niveau 6) - Major 16.81/20"
-                ],
-                "toolList": [
-                ],
-                "startDate": "Septembre 2019",
-                "endDate": "Juin 2022"
-            },
-            {
-                "company": "Lycée St Joseph (Châteaubriant)",
-                "link": "https://stjo-chateaubriant.fr/",
-                "job": "Baccalauréat Scientifique",
-                "contractType": "Lycée / Baccalauréat",
-                "taskList": [
-                    "Filière scientifique", 
-                    "Option ISN (Informatique et sciences du numérique)",
-                    "Résultat : Reçu, Mention Bien - 15.5/20"
-                ],
-                "toolList": [
-                ],
-                "startDate": "Septembre 2016",
-                "endDate": "Juin 2019"
-            }
-        ]
-    }, 
-    "footer": {
-        "infoList": [
-            "Développeur Back-end",
-            "Rennes"
-        ],
-        "socialNetworkList": [
-            {
-                "link": "https://twitter.com/BessonMathieu3",
-                "iconClass": "icon-twitter"
-            },
-            {
-                "link": "https://www.linkedin.com/in/mathieubesson/",
-                "iconClass": "icon-linkedin"
-            },
-            {
-                "link": "https://github.com/MathieuBesson",
-                "iconClass": "icon-github"
-            }
-        ]
+  "header": {
+    "banner": {
+      "presentationList": [
+        "Après <strong>3 années d'expérience</strong> en alternance en tant que développeur Symfony, je suis à la recherche d'un nouveau poste pour mettre mes compétences au service d'une nouvelle entreprise ! 👋",
+        "À l'aise en <strong>équipe</strong> et sur la partie <strong>technique</strong>, je suis toujours en quête de nouvelles <strong>connaissances</strong> et <strong>savoir-faire</strong>.",
+        "Si mon profil vous intéresse n'hésitez pas à me <strong><a href=\"#contact\">contacter</a></strong> ! 📩"
+      ]
     }
+  },
+  "skill": {
+    "typeList": [
+      {
+        "title": "Web (Back-end, Front-end)",
+        "skillList": [
+          { "children": "PHP", "iconClass": "devicon-php-plain colored" },
+          { "children": "Symfony", "iconClass": "devicon-symfony-original" },
+          {
+            "children": "Javascript / TypeScript",
+            "iconClass": "devicon-typescript-plain colored"
+          },
+          { "children": "Node.js", "iconClass": "devicon-nodejs-plain-wordmark colored" },
+          {
+            "children": "Nest.js",
+            "iconClass": "devicon-nestjs-original colored"
+          },
+          {
+            "children": "React.js / React Native",
+            "iconClass": "devicon-react-original colored"
+          },
+          {
+            "children": "Tailwind",
+            "iconClass": "devicon-tailwindcss-original colored"
+          },
+          {
+            "children": "SQL",
+            "iconClass": "devicon-azuresqldatabase-plain colored"
+          },
+          {
+            "children": "PostgreSQL",
+            "iconClass": "devicon-postgresql-plain colored"
+          },
+          {
+            "children": "MYSQL / Mariadb",
+            "iconClass": "devicon-mysql-original colored"
+          }
+        ]
+      },
+      {
+        "title": "Administration Système",
+        "skillList": [
+          { "children": "Linux", "iconClass": "devicon-linux-plain" },
+          { "children": "Docker", "iconClass": "devicon-docker-plain colored" },
+          { "children": "Bash", "iconClass": "devicon-bash-plain" },
+          {
+            "children": "Vagrant",
+            "iconClass": "devicon-vagrant-plain colored"
+          },
+          { "children": "Apache", "iconClass": "devicon-apache-plain colored" },
+          { "children": "Git", "iconClass": "devicon-git-plain colored" }
+        ]
+      }
+    ]
+  },
+  "project": {
+    "list": [
+      {
+        "title": "Draft.",
+        "imageName": "img-10",
+        "links": [
+          {
+            "link": "https://draft-snowboard.netlify.app/",
+            "iconClass": "icon-square-arrow-out-up-right"
+          },
+          {
+            "link": "https://github.com/MathieuBesson/Draft",
+            "iconClass": "devicon-github-original"
+          }
+        ]
+      }
+    ]
+  },
+  "path": {
+    "list": [
+      {
+        "company": "Blue2i",
+        "link": "https://www.blue2i.com",
+        "job": "Développeur Back-end PHP / Symfony",
+        "contractType": "Stage & Alternance",
+        "taskList": [
+          "Développement et maintenance d'une <strong>solution de gestion d'un parc hôtelier</strong> : roulement <strong>code de porte</strong>, <strong>back-office de gestion</strong>, <strong>module e-commerce Stripe</strong>, intégration <strong>flux de donnée</strong> externe, <strong>support technique</strong>...",
+          "Mise en place d'un outil de <strong>wiki markdown</strong> interne (<a target=\"_blank\" href=\"https://squidfunk.github.io/mkdocs-material/\">Mkdocs Material</a>)",
+          "<strong>TMA et refactorisation</strong> d'applications existantes",
+          "Administration système : évolution et maintenance <strong>paquets Debian</strong>",
+          "<strong>Normalisation</strong> des process : Gitflow, librairies PHP interne avec Composer et Satis, processus de documentation technique",
+          "Développement d'un <strong>configurateur de plaques de verre</strong> réactif sous Vue.js",
+          "R&D : recherche d'outils et de bonnes pratiques, POC..."
+        ],
+        "toolList": [
+          { "children": "PHP", "iconClass": "devicon-php-plain colored" },
+          { "children": "Symfony", "iconClass": "devicon-symfony-original" },
+          { "children": "Composer", "iconClass": "devicon-composer-line" },
+          {
+            "children": "Javascript",
+            "iconClass": "devicon-javascript-plain colored"
+          },
+          { "children": "Vue.js", "iconClass": "devicon-vuejs-plain colored" },
+          {
+            "children": "SQL",
+            "iconClass": "devicon-azuresqldatabase-plain colored"
+          },
+          {
+            "children": "PostgreSQL",
+            "iconClass": "devicon-postgresql-plain colored"
+          },
+          { "children": "Linux", "iconClass": "devicon-linux-plain" },
+          { "children": "Debian", "iconClass": "devicon-debian-plain colored" },
+          { "children": "Docker", "iconClass": "devicon-docker-plain colored" },
+          { "children": "Bash", "iconClass": "devicon-bash-plain" },
+          {
+            "children": "Vagrant",
+            "iconClass": "devicon-vagrant-plain colored"
+          },
+          { "children": "Apache", "iconClass": "devicon-apache-plain colored" },
+          { "children": "Git", "iconClass": "devicon-git-plain colored" }
+        ],
+        "startDate": "Avril 2021",
+        "endDate": "Août 2024"
+      },
+      {
+        "company": "MyDigitalSchool Rennes",
+        "link": "https://www.mydigitalschool.com/mba-architecte-web",
+        "job": "MBA Développeur Full-stack",
+        "contractType": "Bac+5",
+        "taskList": [
+          "<strong>Programme</strong> : Développement natif Flutter, Docker, Qualité logiciel et tests, API REST, Linux, Bash scripting, PWA, DevOps, Gestion de projet, Droit, Management, Relation client, Projet de groupe inter-filière, Mémoire... ",
+          "Mémoire : <strong><a target=\"_blank\" href=\"/docs/MÉMOIRE_MASTER_MDS_M2DFS.pdf\">\"Garantir la transmission des savoir-faire au sein d’une TPE\"</a> (18,72/20)</strong>",
+          "Résultat : <strong>Reçu, <a target=\"_blank\" href=\"https://www.francecompetences.fr/recherche/rncp/34394/\">Titre RNCP34394 (Niveau 7)</a> - 16.33/20</strong>"
+        ],
+        "toolList": [
+            { "children": "Workflow Git", "iconClass": "devicon-git-plain colored" },
+            { "children": "Java", "iconClass": "devicon-java-plain colored" },
+            { "children": "Node.js", "iconClass": "devicon-nodejs-plain-wordmark colored" },
+            { "children": "React.js / React Native", "iconClass": "devicon-react-original colored" },
+            { "children": "MYSQL / Mariadb", "iconClass": "devicon-mysql-original" },
+            { "children": "Javascript / TypeScript", "iconClass": "devicon-typescript-plain colored" },
+            { "children": "Linux", "iconClass": "devicon-linux-plain" },
+            { "children": "Bash", "iconClass": "devicon-bash-plain" },
+            { "children": "Apache", "iconClass": "devicon-apache-plain colored" },
+            { "children": "Docker", "iconClass": "devicon-docker-plain colored" },
+            { "children": "Flutter", "iconClass": "devicon-flutter-plain colored" }
+        ],
+        "startDate": "Septembre 2022",
+        "endDate": "Juin 2024"
+      },
+      {
+        "company": "La Voix du Vote",
+        "link": "https://lvdv.mathieu-besson.fr",
+        "job": "Co-fondateur & Développeur Back-end PHP / Symfony",
+        "contractType": "Bénévolat",
+        "taskList": [
+          "Plateforme de <strong>synthétisation des programmes</strong> des candidats à l'<strong>élection présidentielle de 2022</strong> (détail, comparateur, glossaire)"
+        ],
+        "toolList": [
+          { "children": "PHP", "iconClass": "devicon-php-plain colored" },
+          { "children": "Symfony", "iconClass": "devicon-symfony-original" },
+          { "children": "Composer", "iconClass": "devicon-composer-line" },
+          {
+            "children": "Javascript",
+            "iconClass": "devicon-javascript-plain colored"
+          },
+          {
+            "children": "SQL",
+            "iconClass": "devicon-azuresqldatabase-plain colored"
+          },
+          {
+            "children": "PostgreSQL",
+            "iconClass": "devicon-postgresql-plain colored"
+          },
+          { "children": "Linux", "iconClass": "devicon-linux-plain" },
+          { "children": "Docker", "iconClass": "devicon-docker-plain colored" },
+          { "children": "Apache", "iconClass": "devicon-apache-plain colored" },
+          { "children": "Git", "iconClass": "devicon-git-plain colored" }
+        ],
+        "startDate": "Mai 2021",
+        "endDate": "Mai 2022"
+      },
+      {
+        "company": "Web and Cow",
+        "link": "https://www.webandcow.com/",
+        "job": "Développeur PHP CakePHP",
+        "contractType": "Stage",
+        "taskList": [
+          "<strong>Intégration</strong> de la nouvelle <strong>charte graphique</strong> de “Code Challenge” devenu par la suite <a target=\"_blank\" href=\"https://tainix.fr/\">tainix.fr</a>",
+          "<strong>Ajout de fonctionnalités</strong> : back-office admin, dashboard joueur..."
+        ],
+        "toolList": [
+          { "children": "PHP", "iconClass": "devicon-php-plain colored" },
+          {
+            "children": "CakePHP",
+            "iconClass": "devicon-cakephp-plain colored"
+          },
+          { "children": "Composer", "iconClass": "devicon-composer-line" },
+          {
+            "children": "Javascript",
+            "iconClass": "devicon-javascript-plain colored"
+          },
+          { "children": "Sass", "iconClass": "devicon-sass-original colored" },
+          {
+            "children": "Bootstrap",
+            "iconClass": "devicon-bootstrap-plain colored"
+          },
+          {
+            "children": "MYSQL",
+            "iconClass": "devicon-postgresql-plain colored"
+          },
+          { "children": "Git", "iconClass": "devicon-git-plain colored" }
+        ],
+        "startDate": "Avril 2020",
+        "endDate": "Juin 2020"
+      },
+      {
+        "company": "MyDigitalSchool Rennes",
+        "link": "https://www.mydigitalschool.com/bachelor-developpeur-digital-web",
+        "job": "Concepteur Développeur d'applications (CDA)",
+        "contractType": "Bac+3",
+        "taskList": [
+          "Bachelor en 3 ans : <strong>2 années en initiale</strong> (avec 16 semaines de stage) et <strong>une année en alternance</strong>",
+          "<strong>Année 1 et 2</strong> (Générale) : <strong>Développement front-end et back-end, base de donnée</strong>, webdesgin, marketing digital, gestion de projet, SEO, droit...",
+          "<strong>Année 3</strong> (Spécifique) : <strong>Conception et développement d'application web et mobile</strong> : Git, POO, Design Pattern, Back-end Java, PHP, node.js, Front-end (React.js, React Native), UML, SQL, Gestion de projet...",
+          "Résultat : <strong>Reçu, <a target=\"_blank\" href=\"https://www.francecompetences.fr/recherche/rncp/31678/\">Titre RNCP31678 (Niveau 6)</a> - Major 16.81/20</strong>"
+        ],
+        "toolList": [
+          { "children": "Git", "iconClass": "devicon-git-plain colored" },
+          { "children": "Java", "iconClass": "devicon-java-plain colored" },
+          { "children": "PHP", "iconClass": "devicon-php-plain colored" },
+          { "children": "Node.js", "iconClass": "devicon-nodejs-plain-wordmark colored" },
+          { "children": "React.js / React Native", "iconClass": "devicon-react-original colored" },
+          { "children": "MYSQL / Mariadb", "iconClass": "devicon-mysql-original" },
+          { "children": "Javascript", "iconClass": "devicon-javascript-plain colored" },
+          { "children": "Sass", "iconClass": "devicon-sass-original colored" },
+          { "children": "Vue.js", "iconClass": "devicon-vuejs-plain colored" },
+          { "children": "Linux", "iconClass": "devicon-linux-plain" },
+          { "children": "Bash", "iconClass": "devicon-bash-plain" },
+          { "children": "Apache", "iconClass": "devicon-apache-plain colored" },
+          { "children": "Jenkins", "iconClass": "devicon-jenkins-line" },
+          { "children": "SonarCube", "iconClass": "devicon-sonarqube-original colored" }
+        ],
+        "startDate": "Septembre 2019",
+        "endDate": "Juin 2022"
+      },
+      {
+        "company": "Lycée St Joseph (Châteaubriant)",
+        "link": "https://stjo-chateaubriant.fr/",
+        "job": "Baccalauréat Scientifique",
+        "contractType": "Lycée / Baccalauréat",
+        "taskList": [
+          "<strong>Filière scientifique</strong>",
+          "<strong>Option ISN</strong> (Informatique et sciences du numérique)",
+          "Résultat : <strong>Reçu, Mention Bien - 15.5/20</strong>"
+        ],
+        "toolList": [
+          { "children": "Java", "iconClass": "devicon-java-plain colored" },
+          { "children": "HTML", "iconClass": "devicon-html5-plain colored" },
+          { "children": "Sass", "iconClass": "devicon-sass-original colored" }
+        ],
+        "startDate": "Septembre 2016",
+        "endDate": "Juin 2019"
+      }
+    ]
+  },
+  "footer": {
+    "infoList": ["Développeur Back-end", "Rennes"],
+    "socialNetworkList": [
+      {
+        "link": "https://twitter.com/BessonMathieu3",
+        "iconClass": "icon-twitter"
+      },
+      {
+        "link": "https://www.linkedin.com/in/mathieubesson/",
+        "iconClass": "icon-linkedin"
+      },
+      {
+        "link": "https://github.com/MathieuBesson",
+        "iconClass": "icon-github"
+      }
+    ]
+  }
 }

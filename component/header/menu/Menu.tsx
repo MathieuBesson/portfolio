@@ -11,8 +11,8 @@ export const Menu: React.FC = () => {
                 <li className="menu-list-item">
                     <a className="menu-list-item-link" href="#skills">Compétences</a>
                 </li>
-                <li className="menu-list-item"><a className="menu-list-item-link" href="#projects">Projets</a></li>
                 <li className="menu-list-item"><a className="menu-list-item-link" href="#path">Parcours</a></li>
+                <li className="menu-list-item"><a className="menu-list-item-link" href="#projects">Projets</a></li>
                 <li className="menu-list-item"><a className="menu-list-item-link" href="#contact">Contact</a></li>
             </ul>
         </nav>

@@ -14,8 +14,8 @@ export default function LandingPage() {
       <main>
         <Header />
         <Skill />
-        <Project />
         <Path />
+        <Project />
         <Contact />
       </main>
       <Footer />

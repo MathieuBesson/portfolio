@@ -2,12 +2,14 @@ import { PathItemProps } from "@/types/path";
 import { PathItemTask } from "./PathItemTask";
 import { PathItemTool } from "./PathItemTool";
 
-export const PathItem: React.FC<PathItemProps> = ({link, company, job, taskList, toolList, startDate, endDate }) => {
+export const PathItem: React.FC<PathItemProps> = ({ link, company, job, taskList, toolList, startDate, endDate, contractType }) => {
     return (
         <section className="path-timeline-item">
             <div className="path-timeline-item-description">
-                <h3><a href={link} target="_blank">{company}</a></h3>
-                <h4>{job}</h4>
+                <a href={link} target="_blank">
+                    <h3>{job}</h3>
+                    <h4><span className="path-timeline-item-description-contract-company">{company}</span> | <span className="path-timeline-item-description-contract-type">{contractType}</span></h4>
+                </a>
                 <ul className="path-timeline-item-description-content">
                     {taskList.map((task, id) => (
                         <PathItemTask key={id}>{task}</PathItemTask>

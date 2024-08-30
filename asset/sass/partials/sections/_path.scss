@@ -62,9 +62,20 @@
     }
 
     .path-timeline-item-description h4{
-        font-size: 15px;
+        font-size: 18px;
         color: $main-color;
         margin-bottom:15px ;
+    }
+
+    .path-timeline-item-description-company, .path-timeline-item-description-contract-type{
+        font-size: 15px;
+        color: $main-color;
+        margin-bottom:15px;
+        font-style: italic;
+    }
+
+    .path-timeline-item-description-contract-type{
+        font-weight: normal;
     }
 
     .path-timeline-item-description-content > ul {
@@ -103,7 +114,7 @@
     } 
 
     i {
-        margin: 0 5px;
+        margin: 0 5px 0 0;
     }
 
     .path-timeline-item {
