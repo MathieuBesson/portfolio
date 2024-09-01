@@ -18,7 +18,7 @@ jobs:
         username: ${{ secrets.SERVER_USER }}
         port: ${{ secrets.SERVER_PORT }}
         envs: 
-          SERVER_PATH: ${{ vars.SERVER_PATH }}
+          - SERVER_PATH: ${{ vars.SERVER_PATH }}
         script: |
             echo "SERVER_PATH: $SERVER_PATH"
             cd $SERVER_PATH || exit  
