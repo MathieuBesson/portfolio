@@ -4,7 +4,6 @@ import "@/asset/sass/main.scss"
 import { Skill } from "@/component/skill/Skill";
 import { Project } from "@/component/project/Project";
 import { Path } from "@/component/path/Path";
-import { Contact } from "@/component/contact/Contact";
 import { Footer } from "@/component/footer/Footer";
 
 export default function LandingPage() {
@@ -16,7 +15,6 @@ export default function LandingPage() {
         <Skill />
         <Path />
         <Project />
-        <Contact />
       </main>
       <Footer />
     </>

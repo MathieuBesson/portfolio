@@ -1,0 +1,39 @@
+name: Deploy next.js docker portfolio
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Deploy to server
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SERVER_USER: ${{ secrets.SERVER_USER }}
+          SERVER_HOST: ${{ secrets.SERVER_HOST }}
+          SERVER_PATH: ${{ secrets.SERVER_PATH }}
+        run: |
+          cd $SERVER_PATH || exit
+            
+          # Assurez-vous que le dépôt est à jour
+          git pull origin main
+            
+          # Détruisez les anciens conteneurs
+          docker stop portflio || true
+          docker rm portflio || true
+            
+          # Supprimez l'ancienne image si elle existe
+          docker rmi portflio-image || true
+            
+          # Construisez une nouvelle image Docker
+          docker build -t portflio-image .
+            
+          # Lancez le nouveau conteneur
+          docker run -d --name portfolio -p 3000:3000 portflio-image
+
