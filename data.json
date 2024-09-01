@@ -422,6 +422,10 @@
       {
         "link": "https://github.com/MathieuBesson",
         "iconClass": "icon-github"
+      },
+      {
+        "link": "https://doc.mathieu-besson.fr",
+        "iconClass": "icon-book-open-text"
       }
     ]
   }
