@@ -19,7 +19,7 @@ jobs:
         port: ${{ secrets.SERVER_PORT }}
         envs: ${{ vars.SERVER_PATH }}
         script: |
-            echo $SERVER_PATH
+            echo "SERVER_PATH: $SERVER_PATH"
             cd $SERVER_PATH || exit  
 
             # Mise à jour du dépot
