@@ -7,9 +7,11 @@ export const Project: React.FC = () => {
     return (
         <section id="projects">
             <h2>Mes projets</h2>
-            {data.list.map((project, id) => (
-                <ProjectItem key={id} title={project.title} imageName={project.imageName} links={project.links} />
-            ))}
+            <article className="projects-container">
+                {data.list.map((project, id) => (
+                    <ProjectItem key={id} title={project.title} imageName={project.imageName} links={project.links} inProgress={project.inProgress} />
+                ))}
+            </article>
         </section>
     );
 }

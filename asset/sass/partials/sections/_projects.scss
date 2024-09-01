@@ -1,7 +1,7 @@
 #projects {
     @include currentBg($main-bg-color);
-    .projects-item {@include flex(center);}
-    .projects-item-container-block {
+    .projects-container {@include flex(center);}
+    .projects-container-item-block {
         margin: 25px;
         width: 250px;
         height: 250px;
@@ -14,35 +14,32 @@
         transition: all 0.3s;
         box-shadow: 0px 5px 16px 2px rgba(0, 0, 0, 0.4);
     }
-    [class^="projects-item-container-block-img"] {
+    .projects-container-item-block-img {
         width: 100%;
         height: 100%;
-        filter: brightness(0.35);
+        filter: brightness(0.40);
     }
-    @for $var from 1 through 10 {
-        .projects-item-container-block-img-#{$var} {
-            @include bg-cover("/asset/image/project#{$var}.jpg");
-        }
-    }
-    .projects-item-container {
+
+    .projects-container-item {
         position: relative;
         display: flex;
         justify-content: center;
         flex-direction: column;
         a {cursor: default;}
     }
-    .projects-item-container-content {
+    .projects-container-item-content {
         position: absolute;
-        top: 35%;
         width: 100%;
+        padding: 25px 40px;
         text-align: center;
     }
-    .projects-item-container-content-group {
+    .projects-container-item-content-group {
         height: 45px;
         @include flex(center);
         align-items: flex-end;
     }
-    .projects-item-container-content-group-link{
+    .projects-container-item-content-group-link{
+        position: relative;
         &:hover {animation: 1.5s bounce ease;}
         i {
             cursor: pointer;
@@ -53,6 +50,12 @@
             font-weight: 200;
             transition: all .3s ease;
             &:hover {font-size: 45px;}
+            &.projects-container-item-content-group-link-sub{
+                position: absolute;
+                bottom: -102%;
+                right: -23%;
+                font-size: 22px;
+            }
         }
     }
 }

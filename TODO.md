@@ -1,6 +1,7 @@
 # TODO : 
 
-Mettre les projets
+Mettre les projets :
+- Mettre à jour profil Github
+
 Formulaire de contact Next.js + notification (Message bien envoyé !)
-Readme
 MEP et auto deploiement

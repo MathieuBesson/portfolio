@@ -19,7 +19,10 @@
             "children": "Javascript / TypeScript",
             "iconClass": "devicon-typescript-plain colored"
           },
-          { "children": "Node.js", "iconClass": "devicon-nodejs-plain-wordmark colored" },
+          {
+            "children": "Node.js",
+            "iconClass": "devicon-nodejs-plain-wordmark colored"
+          },
           {
             "children": "Nest.js",
             "iconClass": "devicon-nestjs-original colored"
@@ -65,18 +68,121 @@
   "project": {
     "list": [
       {
-        "title": "Draft.",
-        "imageName": "img-10",
+        "title": "Session Planner",
+        "imageName": "session-planner.jpg",
         "links": [
           {
-            "link": "https://draft-snowboard.netlify.app/",
-            "iconClass": "icon-square-arrow-out-up-right"
+            "link": "https://github.com/MathieuBesson/session-planner-api",
+            "iconClass": "devicon-github-original",
+            "subIconClass": "icon-server"
           },
           {
-            "link": "https://github.com/MathieuBesson/Draft",
+            "link": "https://github.com/MathieuBesson/session-planner-pwa",
+            "iconClass": "devicon-github-original",
+            "subIconClass": "icon-screen-share"
+          }
+        ]
+      },
+      {
+        "title": "My Magic Prompt",
+        "imageName": "magic-prompt.jpg",
+        "links": [
+          {
+            "link": "https://github.com/MathieuBesson/my-magic-prompt",
             "iconClass": "devicon-github-original"
           }
         ]
+      },
+      {
+        "title": "Wiki",
+        "imageName": "wiki.jpg",
+        "links": [
+          {
+            "link": "https://github.com/MathieuBesson/wiki",
+            "iconClass": "devicon-github-original"
+          },
+          {
+            "link": "https://doc.mathieu-besson.fr",
+            "iconClass": "icon-square-arrow-out-up-right"
+          }
+        ]
+      },
+      {
+        "title": "Tricount Rat",
+        "imageName": "tricount-rat.jpg",
+        "links": [
+          {
+            "link": "https://github.com/MathieuBesson/tricount-rat-api",
+            "iconClass": "devicon-github-original",
+            "subIconClass": "icon-server"
+          },
+          {
+            "link": "https://github.com/MathieuBesson/tricount-rat-front",
+            "iconClass": "devicon-github-original",
+            "subIconClass": "icon-screen-share"
+          }
+        ]
+      },
+      {
+        "title": "Backup script",
+        "imageName": "backup-script.jpg",
+        "links": [
+          {
+            "link": "https://github.com/MathieuBesson/backup-scripts",
+            "iconClass": "devicon-github-original"
+          }
+        ]
+      },
+      {
+        "title": "Weem",
+        "imageName": "weem.jpg",
+        "links": [
+          {
+            "link": "https://github.com/MathieuBesson/weem",
+            "iconClass": "devicon-github-original"
+          }
+        ]
+      },
+      {
+        "title": "La Voix du Vote",
+        "imageName": "lvdv.jpg",
+        "links": [
+          {
+            "link": "https://github.com/MathieuBesson/lavoixduvote",
+            "iconClass": "devicon-github-original"
+          }
+        ]
+      },
+      {
+        "title": "Food Order Service",
+        "imageName": "food-order-service.jpg",
+        "links": [
+          {
+            "link": "https://github.com/MathieuBesson/food-order-service-back",
+            "iconClass": "devicon-github-original",
+            "subIconClass": "icon-server"
+          },
+          {
+            "link": "https://github.com/MathieuBesson/food-order-service-front",
+            "iconClass": "devicon-github-original",
+            "subIconClass": "icon-screen-share"
+          }
+        ]
+      },
+      {
+        "title": "GameGram",
+        "imageName": "gamegram.jpg",
+        "links": [
+          {
+            "link": "https://github.com/MathieuBesson/GameGram",
+            "iconClass": "devicon-github-original"
+          }
+        ]
+      },
+      {
+        "title": "API Euromillion (En cours...)",
+        "imageName": "api-euromillion.jpg",
+        "links": []
       }
     ]
   },
@@ -138,17 +244,35 @@
           "Résultat : <strong>Reçu, <a target=\"_blank\" href=\"https://www.francecompetences.fr/recherche/rncp/34394/\">Titre RNCP34394 (Niveau 7)</a> - 16.33/20</strong>"
         ],
         "toolList": [
-            { "children": "Workflow Git", "iconClass": "devicon-git-plain colored" },
-            { "children": "Java", "iconClass": "devicon-java-plain colored" },
-            { "children": "Node.js", "iconClass": "devicon-nodejs-plain-wordmark colored" },
-            { "children": "React.js / React Native", "iconClass": "devicon-react-original colored" },
-            { "children": "MYSQL / Mariadb", "iconClass": "devicon-mysql-original" },
-            { "children": "Javascript / TypeScript", "iconClass": "devicon-typescript-plain colored" },
-            { "children": "Linux", "iconClass": "devicon-linux-plain" },
-            { "children": "Bash", "iconClass": "devicon-bash-plain" },
-            { "children": "Apache", "iconClass": "devicon-apache-plain colored" },
-            { "children": "Docker", "iconClass": "devicon-docker-plain colored" },
-            { "children": "Flutter", "iconClass": "devicon-flutter-plain colored" }
+          {
+            "children": "Workflow Git",
+            "iconClass": "devicon-git-plain colored"
+          },
+          { "children": "Java", "iconClass": "devicon-java-plain colored" },
+          {
+            "children": "Node.js",
+            "iconClass": "devicon-nodejs-plain-wordmark colored"
+          },
+          {
+            "children": "React.js / React Native",
+            "iconClass": "devicon-react-original colored"
+          },
+          {
+            "children": "MYSQL / Mariadb",
+            "iconClass": "devicon-mysql-original"
+          },
+          {
+            "children": "Javascript / TypeScript",
+            "iconClass": "devicon-typescript-plain colored"
+          },
+          { "children": "Linux", "iconClass": "devicon-linux-plain" },
+          { "children": "Bash", "iconClass": "devicon-bash-plain" },
+          { "children": "Apache", "iconClass": "devicon-apache-plain colored" },
+          { "children": "Docker", "iconClass": "devicon-docker-plain colored" },
+          {
+            "children": "Flutter",
+            "iconClass": "devicon-flutter-plain colored"
+          }
         ],
         "startDate": "Septembre 2022",
         "endDate": "Juin 2024"
@@ -234,17 +358,32 @@
           { "children": "Git", "iconClass": "devicon-git-plain colored" },
           { "children": "Java", "iconClass": "devicon-java-plain colored" },
           { "children": "PHP", "iconClass": "devicon-php-plain colored" },
-          { "children": "Node.js", "iconClass": "devicon-nodejs-plain-wordmark colored" },
-          { "children": "React.js / React Native", "iconClass": "devicon-react-original colored" },
-          { "children": "MYSQL / Mariadb", "iconClass": "devicon-mysql-original" },
-          { "children": "Javascript", "iconClass": "devicon-javascript-plain colored" },
+          {
+            "children": "Node.js",
+            "iconClass": "devicon-nodejs-plain-wordmark colored"
+          },
+          {
+            "children": "React.js / React Native",
+            "iconClass": "devicon-react-original colored"
+          },
+          {
+            "children": "MYSQL / Mariadb",
+            "iconClass": "devicon-mysql-original"
+          },
+          {
+            "children": "Javascript",
+            "iconClass": "devicon-javascript-plain colored"
+          },
           { "children": "Sass", "iconClass": "devicon-sass-original colored" },
           { "children": "Vue.js", "iconClass": "devicon-vuejs-plain colored" },
           { "children": "Linux", "iconClass": "devicon-linux-plain" },
           { "children": "Bash", "iconClass": "devicon-bash-plain" },
           { "children": "Apache", "iconClass": "devicon-apache-plain colored" },
           { "children": "Jenkins", "iconClass": "devicon-jenkins-line" },
-          { "children": "SonarCube", "iconClass": "devicon-sonarqube-original colored" }
+          {
+            "children": "SonarCube",
+            "iconClass": "devicon-sonarqube-original colored"
+          }
         ],
         "startDate": "Septembre 2019",
         "endDate": "Juin 2022"

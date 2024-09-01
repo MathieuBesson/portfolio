@@ -51,11 +51,6 @@
     #{$direction}: 45.6%;
 }
 
-@mixin bg-cover($path) {
-    background: url($path) center center no-repeat;
-    background-size: cover;
-}
-
 @mixin active($width) {
     @extend %active-item;
     &:after,
