@@ -17,7 +17,7 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           SERVER_USER: ${{ secrets.SERVER_USER }}
           SERVER_HOST: ${{ secrets.SERVER_HOST }}
-          SERVER_PATH: ${{ secrets.SERVER_PATH }}
+          SERVER_PATH: ${{ vars.SERVER_PATH }}
         run: |
           echo "SERVER_PATH: $SERVER_PATH"
           cd $SERVER_PATH || exit
