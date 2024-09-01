@@ -12,13 +12,14 @@ jobs:
     steps:
     - name: Deploy using ssh
       uses: appleboy/ssh-action@master
+      env:
+        SERVER_PATH: ${{ vars.SERVER_PATH }}
       with:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         host: ${{ secrets.SERVER_HOST }}
         username: ${{ secrets.SERVER_USER }}
         port: ${{ secrets.SERVER_PORT }}
-        envs: 
-          - SERVER_PATH: ${{ vars.SERVER_PATH }}
+        envs: SERVER_PATH
         script: |
             echo "SERVER_PATH: $SERVER_PATH"
             cd $SERVER_PATH || exit  
