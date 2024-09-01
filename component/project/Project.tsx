@@ -9,7 +9,7 @@ export const Project: React.FC = () => {
             <h2>Mes projets</h2>
             <article className="projects-container">
                 {data.list.map((project, id) => (
-                    <ProjectItem key={id} title={project.title} imageName={project.imageName} links={project.links} inProgress={project.inProgress} />
+                    <ProjectItem key={id} title={project.title} imageName={project.imageName} links={project.links} />
                 ))}
             </article>
         </section>

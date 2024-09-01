@@ -1,7 +1,7 @@
 import { ProjectItemProps } from "@/types/project";
 import { ProjectItemLink } from "./ProjectItemLink";
 
-export const ProjectItem: React.FC<ProjectItemProps> = ({title, imageName, links, inProgress}) => {
+export const ProjectItem: React.FC<ProjectItemProps> = ({title, imageName, links}) => {
     return (
             <section className="projects-container-item">
                 <div className="projects-container-item-block">
