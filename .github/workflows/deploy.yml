@@ -21,21 +21,13 @@ jobs:
         port: ${{ secrets.SERVER_PORT }}
         envs: SERVER_PATH
         script: |
-            echo "SERVER_PATH: $SERVER_PATH"
-            cd $SERVER_PATH || exit  
+            cd "$SERVER_PATH" || exit  
 
-            # Mise à jour du dépot
+            # Mise à jour du dépôt
             git pull origin main
               
-            # Destruction des anciens conteneurs
-            docker stop portfolio || true
-            docker rm portfolio || true
+            # Destruction des anciens conteneurs et suppression de l'ancienne image
+            docker-compose down --rmi all || true
               
-            # Suppression de l'ancienne image
-            docker rmi portfolio-image || true
-              
-            # Construction de la nouvelle image Docker
-            docker build -t portfolio-image .
-              
-            # Lancement du nouveau conteneur
-            docker run -d --name portfolio -p 3000:3000 portfolio-image
+            # Construction de la nouvelle image et lancement du conteneur
+            docker-compose up -d --build

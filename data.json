@@ -68,77 +68,11 @@
   "project": {
     "list": [
       {
-        "title": "Session Planner",
-        "imageName": "session-planner.jpg",
-        "links": [
-          {
-            "link": "https://github.com/MathieuBesson/session-planner-api",
-            "iconClass": "devicon-github-original",
-            "subIconClass": "icon-server"
-          },
-          {
-            "link": "https://github.com/MathieuBesson/session-planner-pwa",
-            "iconClass": "devicon-github-original",
-            "subIconClass": "icon-screen-share"
-          }
-        ]
-      },
-      {
-        "title": "My Magic Prompt",
-        "imageName": "magic-prompt.jpg",
-        "links": [
-          {
-            "link": "https://github.com/MathieuBesson/my-magic-prompt",
-            "iconClass": "devicon-github-original"
-          }
-        ]
-      },
-      {
-        "title": "Wiki",
-        "imageName": "wiki.jpg",
-        "links": [
-          {
-            "link": "https://github.com/MathieuBesson/wiki",
-            "iconClass": "devicon-github-original"
-          },
-          {
-            "link": "https://doc.mathieu-besson.fr",
-            "iconClass": "icon-square-arrow-out-up-right"
-          }
-        ]
-      },
-      {
-        "title": "Tricount Rat",
-        "imageName": "tricount-rat.jpg",
-        "links": [
-          {
-            "link": "https://github.com/MathieuBesson/tricount-rat-api",
-            "iconClass": "devicon-github-original",
-            "subIconClass": "icon-server"
-          },
-          {
-            "link": "https://github.com/MathieuBesson/tricount-rat-front",
-            "iconClass": "devicon-github-original",
-            "subIconClass": "icon-screen-share"
-          }
-        ]
-      },
-      {
         "title": "Backup script",
         "imageName": "backup-script.jpg",
         "links": [
           {
             "link": "https://github.com/MathieuBesson/backup-scripts",
-            "iconClass": "devicon-github-original"
-          }
-        ]
-      },
-      {
-        "title": "Weem",
-        "imageName": "weem.jpg",
-        "links": [
-          {
-            "link": "https://github.com/MathieuBesson/weem",
             "iconClass": "devicon-github-original"
           }
         ]
@@ -166,6 +100,72 @@
             "link": "https://github.com/MathieuBesson/food-order-service-front",
             "iconClass": "devicon-github-original",
             "subIconClass": "icon-screen-share"
+          }
+        ]
+      },
+      {
+        "title": "Tricount Rat",
+        "imageName": "tricount-rat.jpg",
+        "links": [
+          {
+            "link": "https://github.com/MathieuBesson/tricount-rat-api",
+            "iconClass": "devicon-github-original",
+            "subIconClass": "icon-server"
+          },
+          {
+            "link": "https://github.com/MathieuBesson/tricount-rat-front",
+            "iconClass": "devicon-github-original",
+            "subIconClass": "icon-screen-share"
+          }
+        ]
+      },
+      {
+        "title": "Session Planner",
+        "imageName": "session-planner.jpg",
+        "links": [
+          {
+            "link": "https://github.com/MathieuBesson/session-planner-api",
+            "iconClass": "devicon-github-original",
+            "subIconClass": "icon-server"
+          },
+          {
+            "link": "https://github.com/MathieuBesson/session-planner-pwa",
+            "iconClass": "devicon-github-original",
+            "subIconClass": "icon-screen-share"
+          }
+        ]
+      },
+      {
+        "title": "My Magic Prompt",
+        "imageName": "magic-prompt.jpg",
+        "links": [
+          {
+            "link": "https://github.com/MathieuBesson/my-magic-prompt",
+            "iconClass": "devicon-github-original"
+          }
+        ]
+      },
+      {
+        "title": "Weem",
+        "imageName": "weem.jpg",
+        "links": [
+          {
+            "link": "https://github.com/MathieuBesson/weem",
+            "iconClass": "devicon-github-original"
+          }
+        ]
+      },
+      {
+        "title": "Wiki",
+        "imageName": "wiki.jpg",
+        "links": [
+          {
+            "link": "https://github.com/MathieuBesson/wiki",
+            "iconClass": "devicon-github-original"
+          },
+          {
+            "link": "https://doc.mathieu-besson.fr",
+            "iconClass": "icon-square-arrow-out-up-right"
           }
         ]
       },
