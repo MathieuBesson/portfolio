@@ -19,6 +19,7 @@ jobs:
           SERVER_HOST: ${{ secrets.SERVER_HOST }}
           SERVER_PATH: ${{ secrets.SERVER_PATH }}
         run: |
+          echo $SERVER_PATH
           cd $SERVER_PATH || exit
             
           # Assurez-vous que le dépôt est à jour
