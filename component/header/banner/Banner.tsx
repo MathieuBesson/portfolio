@@ -16,7 +16,6 @@ export const Banner: React.FC = () => {
           <p key={id} className="bagnere-block-content" dangerouslySetInnerHTML={{ __html: presentation }} />
         ))}
       </div>
-      <a href="#contact"><button className="btn-effect btn-first">Contactez-moi !</button></a>
       <a href="/docs/CV_MATHIEU_BESSON_DEVELOPPEUR_BACK_END_2024.pdf" download><button className="btn-effect btn-second">Télécharger mon CV</button></a>
     </article>
     <div className="bagnere-block">
