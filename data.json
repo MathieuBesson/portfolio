@@ -160,8 +160,14 @@
         "imageName": "wiki.jpg",
         "links": [
           {
-            "link": "https://github.com/MathieuBesson/wiki",
-            "iconClass": "devicon-github-original"
+            "link": "https://github.com/MathieuBesson/mkdocs",
+            "iconClass": "devicon-github-original",
+            "subIconClass": "icon-pickaxe"
+          },
+          {
+            "link": "https://github.com/MathieuBesson/docs",
+            "iconClass": "devicon-github-original",
+            "subIconClass": "icon-book-open-text"
           },
           {
             "link": "https://doc.mathieu-besson.fr",
