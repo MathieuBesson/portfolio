@@ -17,7 +17,6 @@ export const Banner: React.FC = () => {
         ))}
       </div>
       <div>
-        <a href="/docs/CV_MATHIEU_BESSON_DEVELOPPEUR_BACK_END_2024.pdf" download target="_blank"><button className="btn-effect btn-second">Télécharger mon CV</button></a>
         <a href="https://doc.mathieu-besson.fr" download target="_blank"><button className="btn-effect btn-first">Voir mon wiki</button></a>
       </div>
     </article>
